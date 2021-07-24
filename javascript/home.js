@@ -4,9 +4,9 @@ document.getElementById("button-1").onclick = function () {
 };
 
 document.getElementById("button-2").onclick = function () {
-  location.href = "https://www.w3schools.com/jsref/met_win_alert.asp";
+  alert("Hello world!");
 };
 
 document.getElementById("button-3").onclick = function () {
-  location.href = "https://hackr.io/blog/javascript-projects";
+  document.getElementById("content").style.color = "blue";
 };
