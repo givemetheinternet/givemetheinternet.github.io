@@ -1,31 +1,31 @@
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 
   font-size: 24px;
-
-}
-
-/* Foundational styling */
-.header {
-  /* spacing */
-  grid-column-start:1;
-  grid-column-end: 3;
-  background-color: darkgray;
-
-  /* font */
-  font-size: 4em;
-
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
 }
 
 .container {
-  height: 100%;
-  display: grid;
   grid-template-rows: 1fr 5fr;
   grid-template-columns: 1fr 3fr;
+
+  height: 100%;
+  display: grid;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+  background-color: darkgray;
+
+  margin: 10px;
+  padding: 10px;
+
+  font-size: 4em;
+
+  text-align: center;
 }
 
 .content {
@@ -38,11 +38,10 @@ html, body {
   width: 90%;
   border: 1px black solid;
   margin: 2px;
-  padding: 2px;
+  margin: 15px;
 }
 
 .sidebar {
   border: 1px black dotted;
   background-color: white;
 }
-
