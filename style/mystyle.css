@@ -6,7 +6,7 @@ body {
   font-size: 24px;
 }
 
-.container {
+#container {
   grid-template-rows: 1fr 5fr;
   grid-template-columns: 1fr 3fr;
 
@@ -14,7 +14,7 @@ body {
   display: grid;
 }
 
-.header {
+#header {
   grid-column-start: 1;
   grid-column-end: 3;
 
@@ -28,7 +28,7 @@ body {
   text-align: center;
 }
 
-.content {
+#content {
   margin: 5px;
   padding: 5px;
 }
@@ -41,7 +41,7 @@ body {
   margin: 15px;
 }
 
-.sidebar {
+#sidebar {
   border: 1px black dotted;
   background-color: white;
 }
