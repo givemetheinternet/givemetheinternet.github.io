@@ -45,3 +45,13 @@ body {
   border: 1px black dotted;
   background-color: white;
 }
+
+#surprise {
+  visibility: hidden;
+  margin: 5px;
+  padding: 5px;
+}
+
+h1 {
+  color: purple;
+}
