@@ -29,8 +29,11 @@ body {
 }
 
 #content {
+  grid-column-start: 1;
+  grid-column-end: 3;
   margin: 5px;
   padding: 5px;
+  text-align: center;
 }
 
 /* Sidebar styling */

@@ -8,15 +8,11 @@
 <body>
   <div id="container">
     <div id="header">Welcome to my website</div>
-    <div id="sidebar">
-      <button class="sidebar-button" id="button-1">Page one</button>
-      <button class="sidebar-button" id="button-2">Page two</button>
-      <button class="sidebar-button" id="button-3">Page three</button>
-    </div>
+    
     <div id="content">
       <div>Guess the number from 1 to 100 below to see a surprise!</div>
-      <div><input type="text" id="buttonText" placeholder="Enter your guess here">
-        <input type="button" id="buttonGuess" value="Guess!" onclick="guessNumber(buttonText.value)"></div>
+      <div><input type="text" id="textGuess" placeholder="Enter your guess here">
+        <input type="button" id="buttonGuess" value="Guess!" onclick="guessNumber(textGuess.value)"></div>
         <div id="surprise">
           <h1>SURPRISE!!!!!!!!</h1>
           <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B1CPE6WWsAQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
